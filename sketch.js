@@ -9,11 +9,6 @@ var bobObject1,bobObject2,bobObject3, bobObject4,bobObject5, roofObject
 var rope1,rope2,rope3, rope4,rope5;
 var world;
 
-function preload(){
-	bg = loadImage("laboratorio.jpg");
-}
-
-
 function setup() {
 	createCanvas(800, 600);
 	rectMode(CENTER);
@@ -40,7 +35,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(bg);
+  background("lightgray");
   roofObject.display();
 
   rope1.display();
