@@ -25,7 +25,7 @@ class bob
 			translate(paperpos.x, paperpos.y);
 			rectMode(CENTER)
 			//strokeWeight(4);
-			fill("lightgray");
+			fill("pink");
 			//imageMode(CENTER);
 			//image(this.image, 0,0,this.r, this.r)
 			ellipse(0,0,this.r, this.r);
